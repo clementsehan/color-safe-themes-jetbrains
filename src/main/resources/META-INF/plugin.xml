@@ -5,10 +5,21 @@
     <vendor>clementsehan</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
+    <applicationListeners>
+        <listener class="com.github.clementsehan.cvdjbtheme.ColorSchemeRegistrar"
+                  topic="com.intellij.ide.AppLifecycleListener"/>
+    </applicationListeners>
+
     <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.clementsehan.cvdjbtheme.theme.accessible-dark"
+                       path="/themes/accessible-dark.theme.json"/>
+
+        <editorColorScheme path="/themes/accessible-dark.icls"/>
+
         <toolWindow factoryClass="com.github.clementsehan.cvdjbtheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.clementsehan.cvdjbtheme.startup.MyProjectActivity" />
     </extensions>
