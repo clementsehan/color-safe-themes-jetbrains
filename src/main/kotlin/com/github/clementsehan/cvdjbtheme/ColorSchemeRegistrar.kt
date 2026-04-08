@@ -8,7 +8,7 @@ import com.intellij.openapi.editor.colors.impl.EditorColorsSchemeImpl
 import com.intellij.openapi.util.JDOMUtil
 
 /**
- * Ensures the "accessible-dark" editor color scheme is registered and applied.
+ * Ensures the "Pro-Deutan Dark" editor color scheme is registered and applied.
  *
  * Two problems are solved here:
  *
@@ -18,7 +18,7 @@ import com.intellij.openapi.util.JDOMUtil
  *
  * 2. EditorColorsManager.loadState() (which restores the saved global scheme) runs
  *    during service initialisation, before the editorColorScheme EP has registered
- *    our scheme. When it can't find "accessible-dark" it silently falls back to the
+ *    our scheme. When it can't find "Pro-Deutan Dark" it silently falls back to the
  *    IDE default. We detect that mismatch in appFrameCreated and restore the correct
  *    scheme before any editor opens.
  */
@@ -59,8 +59,8 @@ internal class ColorSchemeRegistrar : AppLifecycleListener {
     }
 
     private companion object {
-        const val THEME_NAME = "accessible-dark"
-        const val SCHEME_NAME = "accessible-dark"
+        const val THEME_NAME = "Pro-Deutan Dark"
+        const val SCHEME_NAME = "Pro-Deutan Dark"
         const val SCHEME_RESOURCE = "/themes/accessible-dark.icls"
     }
 }

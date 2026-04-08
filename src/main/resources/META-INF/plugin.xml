@@ -1,8 +1,13 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.clementsehan.cvdjbtheme</id>
-    <name>cvd-jb-theme</name>
+    <name>ColorSafe Themes</name>
     <vendor>clementsehan</vendor>
+
+    <description><![CDATA[
+        Pro-Deutan Dark is a high-contrast clarity color scheme for Protanopia and Deuteranopia,
+        replacing red-green confusion with a logical Blue-Amber syntax.
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.lang</depends>
