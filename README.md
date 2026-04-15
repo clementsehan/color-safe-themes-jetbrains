@@ -13,7 +13,7 @@ JetBrains IDE themes designed for Color Vision Deficiency — built around scien
 
 _More themes coming soon._
 
-![Pro-Deutan Dark screenshot](https://raw.githubusercontent.com/clementsehan/cvd-jb-theme/main/src/main/resources/themes/pro-deutan-dark.png)
+<img src="https://assets.gigsin.me/pro-deutan-dark.png" alt="Pro-Deutan Dark Theme Preview">
 <!-- Plugin description end -->
 
 ## Installation
