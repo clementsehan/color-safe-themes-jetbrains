@@ -67,8 +67,6 @@
 
     "Button.background":                "#2A3558",
     "Button.foreground":                "#E2E2F0",
-    "Button.startBackground":           "#2A3558",
-    "Button.endBackground":             "#252545",
     "Button.borderColor":               "#363660",
     "Button.focusedBorderColor":        "#5BB8F5",
     "Button.disabledBorderColor":       "#2E2E50",
@@ -77,9 +75,6 @@
     "Button.pressedBackground":         "#1E2840",
     "Button.default.background":        "#1E3A6A",
     "Button.default.foreground":        "#E2E2F0",
-    "Button.default.startBackground":   "#1E3A6A",
-    "Button.default.endBackground":     "#163260",
-    "Button.default.borderColor":       "#5BB8F5",
     "Button.default.focusedBorderColor":"#A8D8F0",
     "Button.default.hoverBackground":   "#2A4A7A",
 
@@ -115,7 +110,6 @@
     "ComboBox.arrowButtonBackground":   "#22223A",
     "ComboBox.arrowButtonForeground":   "#8888B0",
     "ComboBox.borderColor":             "#363660",
-    "ComboBox.disabledBackground":      "#1E1E30",
     "ComboBox.disabledForeground":      "#55558A",
 
     "CheckBox.background":              "#1B1B2A",
@@ -129,10 +123,8 @@
     "RadioButton.borderColor":          "#363660",
 
     "Spinner.background":               "#1C1C2E",
-    "Spinner.foreground":               "#E2E2F0",
     "Spinner.borderColor":              "#363660",
 
-    "MenuBar.background":               "#1B1B2A",
     "MenuBar.foreground":               "#E2E2F0",
     "MenuBar.selectionBackground":      "#3A3A72",
     "MenuBar.selectionForeground":      "#E2E2F0",
@@ -152,7 +144,6 @@
     "MenuItem.selectionBackground":     "#3A3A72",
     "MenuItem.selectionForeground":     "#E2E2F0",
     "MenuItem.acceleratorForeground":   "#8888B0",
-    "MenuItem.acceleratorSelectionForeground": "#A8A8C8",
     "MenuItem.disabledForeground":      "#55558A",
 
     "PopupMenu.background":             "#26264A",
@@ -195,7 +186,6 @@
     "Tree.selectionBackground":         "#3A3A72",
     "Tree.selectionForeground":         "#E2E2F0",
     "Tree.selectionInactiveBackground": "#252545",
-    "Tree.selectionInactiveForeground": "#A8A8C8",
     "Tree.hoverBackground":             "#252545",
     "Tree.rowHeight":                   24,
     "Tree.hash":                        "#363660",
@@ -227,11 +217,7 @@
     "ScrollBar.thumb.hoverBorderColor": "#5BB8F5",
     "ScrollBar.track.background":       "#1B1B2A",
     "ScrollBar.track.borderColor":      "#1B1B2A",
-    "ScrollBar.hoverThumbColor":        "#4A4A78",
-    "ScrollBar.hoverTrackColor":        "#22223A",
-
     "Separator.separatorColor":         "#363660",
-    "Separator.foreground":             "#363660",
 
     "ProgressBar.background":           "#22223A",
     "ProgressBar.foreground":           "#5BB8F5",
@@ -250,11 +236,6 @@
     "Slider.focusColor":                "#5BB8F5",
 
     "ToolWindow.background":            "#22223A",
-    "ToolWindow.foreground":            "#E2E2F0",
-    "ToolWindow.header.background":     "#1B1B2A",
-    "ToolWindow.header.foreground":     "#A8A8C8",
-    "ToolWindow.header.active.background": "#22223A",
-    "ToolWindow.header.border.background": "#363660",
     "ToolWindow.Header.background":     "#1B1B2A",
     "ToolWindow.Header.borderColor":    "#363660",
     "ToolWindow.Header.inactiveBackground": "#1B1B2A",
@@ -274,11 +255,9 @@
     "EditorTabs.underlineHeight":       3,
     "EditorTabs.underlinedTabBackground": "#1C1C2E",
     "EditorTabs.underlinedTabForeground": "#E2E2F0",
-    "EditorTabs.selectedBackground":    "#1C1C2E",
     "EditorTabs.selectedForeground":    "#E2E2F0",
     "EditorTabs.inactiveColoredFileBackground": "#252545",
     "EditorTabs.hoverBackground":       "#252545",
-    "EditorTabs.hoverColor":            "#E2E2F0",
     "EditorTabs.inactiveForeground":    "#8888B0",
     "EditorTabs.modifiedIconColor":     "#E6A020",
     "EditorTabs.active.background":     "#1C1C2E",
@@ -294,7 +273,6 @@
 
     "SearchEverywhere.background":      "#26264A",
     "SearchEverywhere.foreground":      "#E2E2F0",
-    "SearchEverywhere.headerBackground":"#22223A",
     "SearchEverywhere.Header.background":"#22223A",
     "SearchEverywhere.Tab.selectedBackground": "#3A3A72",
     "SearchEverywhere.Tab.selectedForeground": "#E2E2F0",
@@ -331,7 +309,6 @@
 
     "StatusBar.background":             "#161620",
     "StatusBar.foreground":             "#A8A8C8",
-    "StatusBar.hoverBackground":        "#22223A",
     "StatusBar.borderColor":            "#2E2E50",
     "StatusBar.Widget.background":      "#161620",
     "StatusBar.Widget.foreground":      "#A8A8C8",
@@ -361,7 +338,6 @@
     "Counter.foreground":               "#5BB8F5",
 
     "DragAndDrop.areaBackground":       "#1E2840",
-    "DragAndDrop.areaBorderColor":      "#5BB8F5",
     "DragAndDrop.rowBackground":        "#3A3A72",
 
     "FileColor.Yellow":                 "#2E2A16",
@@ -411,10 +387,8 @@
     "MainToolbar.Icon.hoverBackground": "#252545",
     "MainToolbar.inactiveBackground":   "#161620",
 
-    "Git.Log.Lane.NOT_USED_YET":        "#5BB8F5",
     "BookmarkMnemonicCurrent.background":"#1E3A6A",
     "BookmarkMnemonicCurrent.foreground":"#E2E2F0",
-    "BookmarkMnemonicCurrent.borderColor":"#5BB8F5",
     "BookmarkMnemonic.background":      "#22223A",
     "BookmarkMnemonic.foreground":      "#A8A8C8",
     "BookmarkMnemonic.borderColor":     "#363660",
