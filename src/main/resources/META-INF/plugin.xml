@@ -1,14 +1,30 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.clementsehan.cvdjbtheme</id>
-    <name>cvd-jb-theme</name>
+    <name>ColorSafe Themes</name>
     <vendor>clementsehan</vendor>
 
+    <description><![CDATA[
+        Pro-Deutan Dark is a high-contrast clarity color scheme for Protanopia and Deuteranopia,
+        replacing red-green confusion with a logical Blue-Amber syntax.
+    ]]></description>
+
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
 
     <resource-bundle>messages.MyBundle</resource-bundle>
 
+    <applicationListeners>
+        <listener class="com.github.clementsehan.cvdjbtheme.ColorSchemeRegistrar"
+                  topic="com.intellij.ide.AppLifecycleListener"/>
+    </applicationListeners>
+
     <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.github.clementsehan.cvdjbtheme.theme.accessible-dark"
+                       path="/themes/accessible-dark.theme.json"/>
+
+        <editorColorScheme path="/themes/accessible-dark.icls"/>
+
         <toolWindow factoryClass="com.github.clementsehan.cvdjbtheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.clementsehan.cvdjbtheme.startup.MyProjectActivity" />
     </extensions>
