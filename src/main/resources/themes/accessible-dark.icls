@@ -7,7 +7,7 @@
 
     Core axis: Blue (#5BB8F5) vs Amber (#E6A020) — NOT red vs green.
     Errors:    Hot Pink/Magenta (#FF5F87) + squiggly underline + bold (triple encoding).
-    Warnings:  Amber-Orange (#FFAB40) + dotted underline (double encoding).
+    Warnings:  Amber-Orange (#FFAB40) squiggly underline only (text color unchanged).
     Comments:  Italic — distinct font style regardless of color perception.
     Keywords:  Bold — structurally distinct regardless of color perception.
 
@@ -107,13 +107,12 @@
       </value>
     </option>
 
-    <!-- WARNINGS: amber + bold-dotted underline + stripe marker -->
+    <!-- WARNINGS: amber squiggly underline + stripe marker, no text color/weight change -->
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR"       value="FFAB40"/>
-        <option name="EFFECT_TYPE"        value="6"/>  <!-- 6 = bold dotted underline -->
+        <option name="EFFECT_TYPE"        value="2"/>  <!-- 2 = wave/squiggly -->
         <option name="ERROR_STRIPE_COLOR" value="FFAB40"/>
-        <option name="FONT_TYPE"          value="1"/>  <!-- bold -->
       </value>
     </option>
 
