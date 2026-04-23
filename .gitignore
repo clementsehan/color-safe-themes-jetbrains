@@ -4,4 +4,8 @@
 .intellijPlatform
 .kotlin
 .qodana
+.env
+plugin-signing-key.pem
+plugin-signing-chain.crt
+publish.sh
 build

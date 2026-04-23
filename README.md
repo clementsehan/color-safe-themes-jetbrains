@@ -1,38 +1,57 @@
 # ColorSafe Themes
 
 ![Build](https://github.com/clementsehan/cvd-jb-theme/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/31376.svg)](https://plugins.jetbrains.com/plugin/31376)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/31376.svg)](https://plugins.jetbrains.com/plugin/31376)
 
-JetBrains IDE themes designed for Color Vision Deficiency — built around scientific visibility, not convention.
+Accessible dark themes for JetBrains IDEs — engineered for color blindness (Deuteranopia, Protanopia) with WCAG AA contrast and scientific color accessibility.
 
 <!-- Plugin description -->
+**ColorSafe Themes** is a collection of accessible, high-contrast color schemes for JetBrains IDEs, built specifically for developers with **color vision deficiency (color blindness)** — and anyone who wants a cleaner, more readable coding environment.
+
+Most IDE themes rely on red-green distinctions that are invisible to colorblind developers. ColorSafe replaces those with perceptually distinct color axes grounded in color science, so syntax, errors, and warnings are always unambiguous — whether you have Deuteranopia, Protanopia, or typical color vision.
+
+---
+
 **Themes included:**
 
-- **Pro-Deutan Dark** — High-contrast dark theme for Protanopia and Deuteranopia. Replaces red-green confusion with a logical Blue-Amber syntax axis. WCAG AA contrast throughout, with bold keywords and triple-encoded errors (color + shape + weight).
+**Pro-Deutan Dark** — High-contrast dark theme for Deuteranopia and Protanopia
+- **Blue-Amber syntax axis** replaces the red-green confusion of standard themes
+- **WCAG AA contrast** ratios throughout — readable at a glance, no squinting required
+- **Triple-encoded errors**: color + squiggly underline shape + font weight — never miss a bug
+- **Bold keywords** for instant visual hierarchy and reduced cognitive load
 
-_More themes coming soon._
+_More themes coming — Tritanopia, low-vision, and light variants are planned._
 
-<img src="https://assets.gigsin.me/pro-deutan-dark.png" alt="Pro-Deutan Dark Theme Preview">
+---
+
+**Works with all JetBrains IDEs:** IntelliJ IDEA, PyCharm, WebStorm, GoLand, Rider, CLion, DataGrip, Android Studio, and more.
+
+**Keywords:** colorblind theme · color blindness · deuteranopia · protanopia · color vision deficiency · accessible IDE theme · WCAG · high contrast · dark theme · accessibility
+
+---
+
+If ColorSafe makes your day easier, you can [support the project here](https://ko-fi.com/clemsehan). Thank you!
+
 <!-- Plugin description end -->
 
 ## Installation
 
 - Using the IDE built-in plugin system:
 
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "cvd-jb-theme"</kbd> >
+  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "colorsafe themes"</kbd> >
   <kbd>Install</kbd>
 
 - Using JetBrains Marketplace:
 
-  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
+  Go to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/31376) and install it by clicking the <kbd>Install to ...</kbd> button in case your IDE is running.
 
-  You can also download the [latest release](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID/versions) from JetBrains Marketplace and install it manually using
+  You can also download the [latest release](https://plugins.jetbrains.com/plugin/31376/versions) from JetBrains Marketplace and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 - Manually:
 
-  Download the [latest release](https://github.com/clementsehan/cvd-jb-theme/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/clementsehan/color-safe-themes-jetbrains/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
