@@ -61,6 +61,6 @@ internal class ColorSchemeRegistrar : AppLifecycleListener {
     private companion object {
         const val THEME_NAME = "Pro-Deutan Dark"
         const val SCHEME_NAME = "Pro-Deutan Dark"
-        const val SCHEME_RESOURCE = "/themes/accessible-dark.icls"
+        const val SCHEME_RESOURCE = "/themes/pro-deutan-dark.icls"
     }
 }

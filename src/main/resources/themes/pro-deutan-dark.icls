@@ -450,6 +450,50 @@
       </value>
     </option>
 
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND"  value="5BC8C8"/>
+        <option name="FONT_TYPE"   value="0"/>
+      </value>
+    </option>
+
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND"  value="5BC8C8"/>
+        <option name="FONT_TYPE"   value="0"/>
+      </value>
+    </option>
+
+    <!-- ─── TypeScript / JSX component tags ──────────────── -->
+    <!-- JSX_CLIENT_COMPONENT: syntactic key for PascalCase JSX tags -->
+    <option name="JSX_CLIENT_COMPONENT">
+      <value>
+        <option name="FOREGROUND"  value="C792EA"/>
+        <option name="FONT_TYPE"   value="0"/>
+      </value>
+    </option>
+    <!-- XML_CUSTOM_TAG_NAME: fallback from JSX_CLIENT_COMPONENT -->
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND"  value="C792EA"/>
+        <option name="FONT_TYPE"   value="0"/>
+      </value>
+    </option>
+    <!-- HTML_CUSTOM_TAG_NAME: HTML counterpart for custom element names -->
+    <option name="HTML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND"  value="C792EA"/>
+        <option name="FONT_TYPE"   value="0"/>
+      </value>
+    </option>
+    <!-- TS.TYPE_PARAMETER: semantic key in Darcula extension (teal #507874 in Darcula) -->
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="FOREGROUND"  value="C792EA"/>
+        <option name="FONT_TYPE"   value="0"/>
+      </value>
+    </option>
+
     <option name="DEFAULT_ENTITY">
       <value>
         <option name="FOREGROUND"  value="FFAB40"/>
