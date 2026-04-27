@@ -4,8 +4,6 @@
 
 ## [Unreleased]
 
-## [0.0.5] - 2026-04-27
-
 ### Added
 
 - **Tritan Dark** theme — high-contrast dark theme engineered for Tritanopia
@@ -44,8 +42,7 @@
 - Bold keywords for instant visual hierarchy
 - Fixed contrast for selected text in IDE menus and modals
 
-[Unreleased]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.5...HEAD
-[0.0.5]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.4...0.0.5
+[Unreleased]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.4...HEAD
 [0.0.4]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.3...0.0.4
 [0.0.3]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.2...0.0.3
 [0.0.2]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.1...0.0.2
