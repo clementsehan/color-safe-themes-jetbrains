@@ -22,8 +22,11 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="com.github.clementsehan.cvdjbtheme.theme.pro-deutan-dark"
                        path="/themes/pro-deutan-dark.theme.json"/>
+        <themeProvider id="com.github.clementsehan.cvdjbtheme.theme.pro-tritan-dark"
+                       path="/themes/tritan-dark.theme.json"/>
 
         <editorColorScheme path="/themes/pro-deutan-dark.icls"/>
+        <editorColorScheme path="/themes/tritan-dark.icls"/>
 
         <toolWindow factoryClass="com.github.clementsehan.cvdjbtheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.clementsehan.cvdjbtheme.startup.MyProjectActivity" />

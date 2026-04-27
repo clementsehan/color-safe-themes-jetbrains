@@ -4,6 +4,16 @@
 
 ## [Unreleased]
 
+## [0.0.5] - 2026-04-27
+
+### Added
+
+- **Tritan Dark** theme — high-contrast dark theme engineered for Tritanopia
+- Red-Teal syntax axis replaces the blue-yellow distinctions that are invisible to tritanopic developers
+- WCAG AA contrast ratios throughout the editor, UI panels, and menus
+- Triple-encoded errors: distinct color + squiggly underline shape + bold font weight
+- Bold keywords for instant visual hierarchy
+
 ## [0.0.4] - 2026-04-24
 
 ### Fixed
@@ -34,7 +44,8 @@
 - Bold keywords for instant visual hierarchy
 - Fixed contrast for selected text in IDE menus and modals
 
-[Unreleased]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.4...HEAD
+[Unreleased]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.5...HEAD
+[0.0.5]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.4...0.0.5
 [0.0.4]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.3...0.0.4
 [0.0.3]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.2...0.0.3
 [0.0.2]: https://github.com/clementsehan/cvd-jb-theme/compare/0.0.1...0.0.2

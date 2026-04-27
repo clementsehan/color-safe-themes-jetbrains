@@ -4,12 +4,12 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/31376.svg)](https://plugins.jetbrains.com/plugin/31376)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/31376.svg)](https://plugins.jetbrains.com/plugin/31376)
 
-Accessible dark themes for JetBrains IDEs — engineered for color blindness (Deuteranopia, Protanopia) with WCAG AA contrast and scientific color accessibility.
+Accessible dark themes for JetBrains IDEs — engineered for color blindness (Deuteranopia, Protanopia, Tritanopia) with WCAG AA contrast and scientific color accessibility.
 
 <!-- Plugin description -->
 **ColorSafe Themes** is a collection of accessible, high-contrast color schemes for JetBrains IDEs, built specifically for developers with **color vision deficiency (color blindness)** — and anyone who wants a cleaner, more readable coding environment.
 
-Most IDE themes rely on red-green distinctions that are invisible to colorblind developers. ColorSafe replaces those with perceptually distinct color axes grounded in color science, so syntax, errors, and warnings are always unambiguous — whether you have Deuteranopia, Protanopia, or typical color vision.
+Most IDE themes rely on color distinctions that are invisible to colorblind developers. ColorSafe replaces those with perceptually distinct color axes grounded in color science, so syntax, errors, and warnings are always unambiguous — whether you have Deuteranopia, Protanopia, Tritanopia, or typical color vision.
 
 ---
 
@@ -21,13 +21,19 @@ Most IDE themes rely on red-green distinctions that are invisible to colorblind 
 - **Triple-encoded errors**: color + squiggly underline shape + font weight — never miss a bug
 - **Bold keywords** for instant visual hierarchy and reduced cognitive load
 
-_More themes coming — Tritanopia, low-vision, and light variants are planned._
+**Tritan Dark** — High-contrast dark theme for Tritanopia
+- **Red-Teal syntax axis** replaces the blue-yellow confusion of standard themes
+- **WCAG AA contrast** ratios throughout — readable at a glance, no squinting required
+- **Triple-encoded errors**: color + squiggly underline shape + font weight — never miss a bug
+- **Bold keywords** for instant visual hierarchy and reduced cognitive load
+
+_More themes coming — low-vision and light variants are planned._
 
 ---
 
 **Works with all JetBrains IDEs:** IntelliJ IDEA, PyCharm, WebStorm, GoLand, Rider, CLion, DataGrip, Android Studio, and more.
 
-**Keywords:** colorblind theme · color blindness · deuteranopia · protanopia · color vision deficiency · accessible IDE theme · WCAG · high contrast · dark theme · accessibility
+**Keywords:** colorblind theme · color blindness · deuteranopia · protanopia · tritanopia · color vision deficiency · accessible IDE theme · WCAG · high contrast · dark theme · accessibility
 
 ---
 
